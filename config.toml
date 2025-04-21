@@ -4,21 +4,31 @@ theme = "PaperMod"
 defaultContentLanguage = "en"
 
 [params]
-  homeInfoParams = { Title = "Posts", Content = "資安文章收集與研究紀錄" }
+  homeInfoParams = { Title = "👋 歡迎來到 Erik 的資安筆記", Content = "這裡收錄了我在紅隊、AD、漏洞研究等各領域的學習與實作筆記" }
   ShowReadingTime = true
+  ShowCodeCopyButtons = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  env = "production"
   defaultTheme = "auto"
+  env = "production"
   disableGoogleAnalytics = true
+  mainSections = ["posts"]
 
 [menu]
 [[menu.main]]
-  identifier = "home"
-  name = "Home"
-  url = "/"
-  weight = 1
+  name = "Archive"
+  url = "archives/"
+  weight = 10
+
+[[menu.main]]
+  name = "Tags"
+  url = "tags/"
+  weight = 20
+
+[[menu.main]]
+  name = "Search"
+  url = "search/"
+  weight = 30
 
 [languages]
   [languages.en]
