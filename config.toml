@@ -1,3 +1,18 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://E4ik.github.io/infosec-blog/"
+title = "Infosec Blog"
+theme = "PaperMod"
+defaultContentLanguage = "en"
+
+[params]
+  homeInfoParams = { Title = "Posts", Content = "資安文章收集與研究紀錄" }
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+
+[menu]
+[[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = 1
