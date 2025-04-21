@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://E4ik.github.io/infosec-blog/sitemap.xml
