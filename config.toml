@@ -9,6 +9,9 @@ defaultContentLanguage = "en"
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
+  env = "production"
+  defaultTheme = "auto"
+  disableGoogleAnalytics = true
 
 [menu]
 [[menu.main]]
@@ -16,3 +19,12 @@ defaultContentLanguage = "en"
   name = "Home"
   url = "/"
   weight = 1
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    contentDir = "content"
+    weight = 1
+
+    [languages.en.params]
+      languageCode = "en-us"
